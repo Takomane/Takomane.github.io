@@ -1,0 +1,102 @@
+/*dj page */
+.parentDJ {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.leftpic {
+  animation: Fadein 2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #ff8484;
+  width: 75%;
+}
+
+.rightpic {
+  animation: Fadein 2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #ff8484;
+  width: 100%;
+}
+
+.bottompic {
+  animation: Fadein 2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #ff8484;
+  width: 100%;
+}
+
+.toppic {
+  animation: Fadein 2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #ff8484;
+  width: 100%;
+}
+
+.divrecord {
+  grid-area: 3 / 3 / 5 / 5;
+}
+.divhistory {
+  grid-area: 1 / 1 / 3 / 3;
+}
+.divwhat {
+  grid-area: 1 / 5 / 3 / 7;
+}
+.divwhere {
+  grid-area: 5 / 1 / 7 / 3;
+}
+.divhire {
+  grid-area: 5 / 5 / 7 / 7;
+}
+.divpictop {
+  grid-area: 1 / 3 / 3 / 5;
+}
+.divpicbottom {
+  grid-area: 5 / 3 / 7 / 5;
+}
+.divpicleft {
+  grid-area: 3 / 1 / 5 / 3;
+}
+.divpicright {
+  grid-area: 3 / 5 / 5 / 7;
+}
+
+/* spinning record */
+svg {
+  height: auto;
+  width: 100%;
+  background: #ff8484;
+}
+
+#label {
+  fill: white;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#record {
+  transform-origin: center center;
+  animation: spin 4s linear infinite;
+}
+
+.line {
+  stroke: white;
+}
