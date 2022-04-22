@@ -1,0 +1,115 @@
+/* CSS GRID */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div1animation {
+  animation: myanimationdiv1 4s;
+  border-radius: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div4animation {
+  animation: myanimationdiv4 4s;
+  border-radius: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div5animation {
+  animation: myanimationdiv5 4s;
+  border-radius: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+/*image rolling in animation */
+@keyframes myanimationdiv1 {
+  from {
+    margin-right: -100%;
+  }
+  100% {
+    margin-right: 25%;
+    transform: rotate(1440deg);
+    opacity: 1;
+  }
+}
+
+@keyframes myanimationdiv4 {
+  from {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 25%;
+    transform: rotate(1440deg);
+    opacity: 1;
+  }
+}
+
+@keyframes myanimationdiv5 {
+  from {
+    margin-right: -100%;
+  }
+  100% {
+    margin-right: 25%;
+    transform: rotate(1440deg);
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  border-radius: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden2 {
+  opacity: 0;
+  border-radius: 50%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
