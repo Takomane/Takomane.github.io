@@ -66,6 +66,7 @@
 @keyframes myanimationdiv1 {
   from {
     margin-right: -100%;
+    opacity: 0;
   }
   100% {
     margin-right: 25%;
@@ -77,6 +78,7 @@
 @keyframes myanimationdiv4 {
   from {
     margin-left: -100%;
+    opacity: 0;
   }
   100% {
     margin-left: 25%;
@@ -88,6 +90,7 @@
 @keyframes myanimationdiv5 {
   from {
     margin-right: -100%;
+    opacity: 0;
   }
   100% {
     margin-right: 25%;
