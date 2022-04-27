@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
   let content = document.querySelector(".div4 img");
   let contentPosition = content.getBoundingClientRect().top;
   let screenPosition = window.innerHeight;
-  if ((contentPosition = screenPosition)) {
+  if (contentPosition < screenPosition) {
     content.classList.add("div4animation");
     content.classList.remove("hidden2");
   }
