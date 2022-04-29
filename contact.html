@@ -34,17 +34,32 @@
     </nav>
   </header>
   <body>
-    <form
-      action="https://formsubmit.co/nick.f.mcfarlin@gmail.com"
-      method="POST"
-    >
-      <p>NAME <input type="text" name="name" required /></p>
-      <p>EMAIL <input type="email" name="email" required /></p>
-      <p>Message <input type="text" name="message" required /></p>
-      </p>
-     <p><button type="submit">Send</button></p> 
-     <input type="hidden" name="_captcha" value="false">
-    </form>
+    <div class="contacth1">Contact Form</div>
+    <div class="contactbody">
+      <form
+        action="https://formsubmit.co/nick.f.mcfarlin@gmail.com"
+        method="POST"
+      >
+        <div class="margin">
+          <div class="inputGroup">
+            <input type="text" name="name" required />
+            <span class="inputBar"></span>
+            <label>Name</label>
+          </div>
+          <div class="inputGroup">
+            <input type="text" name="email" required />
+            <span class="inputBar"></span>
+            <label>Email</label>
+          </div>
+          <div class="inputGroup">
+            <textarea type="textarea" name="message" required></textarea>
+            <span class="inputBar"></span>
+            <label>Message</label>
+          </div>
+          <button class="contactbutton">Send</button>
+        </div>
+      </form>
+    </div>
   </body>
   <footer>
     <div class="footcontainer">
