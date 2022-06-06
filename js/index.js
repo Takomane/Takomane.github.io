@@ -1,5 +1,5 @@
-function toggleDarkLight() {
-  var body = document.getElementById("body");
-  var currentClass = body.className;
-  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-}
+const checkbox = document.getElementById("checkbox");
+checkbox.addEventListener("change", function () {
+  document.body.classList.toggle("dark");
+  document.nav.classList.toggle("dark");
+});
