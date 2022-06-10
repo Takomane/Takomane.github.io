@@ -41,6 +41,7 @@ header {
   color: #fff;
   padding: 0.75rem;
   width: 100%;
+  transition: background 0.2s linear;
 }
 
 footer {
@@ -269,7 +270,4 @@ content-wrap {
 body.dark {
   background-color: #292c35;
   color: #ff8484;
-}
-nav.dark {
-  background-color: #292c35;
 }
