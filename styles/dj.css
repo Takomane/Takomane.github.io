@@ -18,6 +18,8 @@
   margin-right: auto;
   border: #ff8484;
   width: 75%;
+  border-radius: 50%;
+  border: solid white 1mm;
 }
 
 .rightpic {
@@ -27,6 +29,8 @@
   margin-right: auto;
   border: #ff8484;
   width: 100%;
+  border-radius: 50%;
+  border: solid white 1mm;
 }
 
 .bottompic {
@@ -36,6 +40,8 @@
   margin-right: auto;
   border: #ff8484;
   width: 100%;
+  border-radius: 50%;
+  border: solid white 1mm;
 }
 
 .toppic {
@@ -45,6 +51,8 @@
   margin-right: auto;
   border: #ff8484;
   width: 100%;
+  border-radius: 50%;
+  border: solid white 1mm;
 }
 
 .divrecord {
