@@ -7,7 +7,7 @@ html {
 .contacth1 {
   padding: 0 0 30px 0;
   display: block;
-  font-family: Trebuchet MS;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-transform: uppercase;
   font-size: 3vw;
@@ -38,8 +38,8 @@ html {
   pointer-events: none;
   transition: all 0.3s ease;
   font-size: 16px;
-  font-family: Trebuchet MS;
-  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -49,12 +49,12 @@ html {
   display: block;
   width: 280px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   left: 25px;
   padding: 5px;
-  font-family: Trebuchet MS;
+  font-family: Arial, Helvetica, sans-serif;
   background: none;
-  color: black;
+  color: white;
 }
 
 .inputGroup input:focus ~ label,
@@ -93,7 +93,7 @@ html {
   position: absolute;
   bottom: 0;
   width: 0;
-  background: black;
+  background: white;
   height: 2px;
   transition: all 0.2s ease;
 }
@@ -114,7 +114,7 @@ html {
   width: 290px;
   color: #3c3c3c;
   text-transform: uppercase;
-  font-family: Trebuchet MS;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   border-radius: 5px;
   box-shadow: 0 6px #a1a1a1;
