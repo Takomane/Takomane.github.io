@@ -295,7 +295,6 @@ content-wrap {
 .checkbox:checked + .label {
   background-color: #ff8484;
 }
-
 body.dark {
   background-color: #292c35;
   color: #ff8484;

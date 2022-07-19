@@ -1,93 +1,67 @@
 /*dj page */
-.parentDJ {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 6px;
-  grid-row-gap: 6px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+.container {
+  padding: 5vw;
+}
+.container h1 {
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  font-weight: 200;
+}
+.container h1::before {
+  content: "─";
+  margin-right: 0.6em;
+  color: #292c35;
+}
+.container h1::after {
+  content: "─";
+  margin-left: 0.6em;
+  color: #292c35;
+}
+.boxes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes:last-child {
+  margin-top: 120px;
+}
+.box {
+  width: 30vw;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 200;
+  padding: 0 4vw 4vw;
+  border-right: 2px;
+  border-left: 0;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #181818, #292c35, #181818) 1 100%;
+}
+.box:last-child {
+  border-right: 0;
+}
+.box h2 {
+  font-size: 3vw;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 200;
+  line-height: 1em;
 }
 
-.leftpic {
-  animation: Fadein 2s;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: #ff8484;
-  width: 75%;
-  border-radius: 50%;
-  border: solid white 1mm;
-}
-
-.rightpic {
-  animation: Fadein 2s;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: #ff8484;
-  width: 100%;
-  border-radius: 50%;
-  border: solid white 1mm;
-}
-
-.bottompic {
-  animation: Fadein 2s;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: #ff8484;
-  width: 100%;
-  border-radius: 50%;
-  border: solid white 1mm;
-}
-
-.toppic {
-  animation: Fadein 2s;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: #ff8484;
-  width: 100%;
-  border-radius: 50%;
-  border: solid white 1mm;
-}
-
-.divrecord {
-  grid-area: 3 / 3 / 5 / 5;
-}
-.divhistory {
-  grid-area: 1 / 1 / 3 / 3;
-}
-.divwhat {
-  grid-area: 1 / 5 / 3 / 7;
-}
-.divwhere {
-  grid-area: 5 / 1 / 7 / 3;
-}
-.divhire {
-  grid-area: 5 / 5 / 7 / 7;
-}
-.divpictop {
-  grid-area: 1 / 3 / 3 / 5;
-}
-.divpicbottom {
-  grid-area: 5 / 3 / 7 / 5;
-}
-.divpicleft {
-  grid-area: 3 / 1 / 5 / 3;
-}
-.divpicright {
-  grid-area: 3 / 5 / 5 / 7;
+.box h3 {
+  font-size: 1vw;
+  margin-bottom: 1em;
+  letter-spacing: 4px;
+  font-weight: 200;
+  line-height: 1em;
 }
 
 /* spinning record */
 svg {
   height: auto;
-  width: 100%;
-  background: #ff8484;
+  width: 50%;
 }
 
 #label {
